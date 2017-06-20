@@ -13,15 +13,15 @@
                     <ul class="breadcrumb">
                        <li>
                             <i class="fa fa-home"></i>
-                            <a href="index.html">Home</a>
+                            <a href="<?php echo base_url("dashboard")?>">Home</a>
                             <span class="divider"><i class="fa fa-angle-right"></i></span>
                         </li>
                         <li>
-                            <a href="support.html">My Ticket</a>
+                            <a href="<?php echo base_url("supports/support")?>">My Ticket</a>
                             <span class="divider"><i class="fa fa-angle-right"></i></span>
                         </li>
                         <li>
-                            <a href="new_ticket.html">New Ticket</a>
+                            <a href="<?php echo base_url("supports/new_ticket")?>">New Ticket</a>
                             <span class="divider"><i class="fa fa-angle-right"></i></span>
                         </li>
                         <li class="active">Open Ticket</li>

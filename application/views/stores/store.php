@@ -14,7 +14,7 @@
                     <ul class="breadcrumb">
                         <li>
                             <i class="fa fa-home"></i>
-                            <a href="index.html">Home</a>
+                            <a href="<?php echo base_url("dashboard")?>">Home</a>
                             <span class="divider"><i class="fa fa-angle-right"></i></span>
                         </li>
                         <li class="active">Store</li>
@@ -57,113 +57,113 @@
                                 <hr>
                                 <ul class="gallery">
                                     <li>
-                                        <a href="img/1a.jpg" rel="prettyPhoto" title="Description of image">
+                                        <a href="<?php echo base_url("assets");?>/img/1a.jpg" rel="prettyPhoto" title="Description of image">
                                             <div>
-                                                <img src="img/1.jpg" alt="" />
+                                                <img src="<?php echo base_url("assets");?>/img/1.jpg" alt="" />
                                                 <i></i>
                                             </div>
                                         </a>
                                         <div class="gallery-tools">
-                                            <a href="confirmation_store.html"><i class="fa fa-shopping-cart"></i></a>
+                                            <a href="<?php echo base_url("stores/confirmation")?>"><i class="fa fa-shopping-cart"></i></a>
                                         </div>
                                     </li>
                                     <li>
-                                        <a href="img/2a.jpg" rel="prettyPhoto" title="Description of image">
+                                        <a href="<?php echo base_url("assets");?>/img/2a.jpg" rel="prettyPhoto" title="Description of image">
                                             <div>
-                                                <img src="img/2.jpg" alt="" />
+                                                <img src="<?php echo base_url("assets");?>/img/2.jpg" alt="" />
                                                 <i></i>
                                             </div>
                                         </a>
                                         <div class="gallery-tools">
-                                            <a href="confirmation_store.html"><i class="fa fa-shopping-cart"></i></a>
+                                            <a href="<?php echo base_url("stores/confirmation")?>"><i class="fa fa-shopping-cart"></i></a>
                                         </div>
                                     </li>
                                     <li>
-                                        <a href="img/3a.jpg" rel="prettyPhoto" title="Description of image">
+                                        <a href="<?php echo base_url("assets");?>/img/3a.jpg" rel="prettyPhoto" title="Description of image">
                                             <div>
-                                                <img src="img/3.jpg" alt="" />
+                                                <img src="<?php echo base_url("assets");?>/img/3.jpg" alt="" />
                                                 <i></i>
                                             </div>
                                         </a>
                                         <div class="gallery-tools">
-                                            <a href="confirmation_store.html"><i class="fa fa-shopping-cart"></i></a>
+                                            <a href="<?php echo base_url("stores/confirmation")?>"><i class="fa fa-shopping-cart"></i></a>
                                         </div>
                                     </li>
                                     <li>
-                                        <a href="img/4a.jpg" rel="prettyPhoto" title="Description of image">
+                                        <a href="<?php echo base_url("assets");?>/img/4a.jpg" rel="prettyPhoto" title="Description of image">
                                             <div>
-                                                <img src="img/4.jpg" alt="" />
+                                                <img src="<?php echo base_url("assets");?>/img/4.jpg" alt="" />
                                                 <i></i>
                                             </div>
                                         </a>
                                         <div class="gallery-tools">
-                                            <a href="confirmation_store.html"><i class="fa fa-shopping-cart"></i></a>
+                                            <a href="<?php echo base_url("stores/confirmation")?>"><i class="fa fa-shopping-cart"></i></a>
                                         </div>
                                     </li>
                                     <li>
-                                        <a href="img/5a.jpg" rel="prettyPhoto" title="Description of image">
+                                        <a href="<?php echo base_url("assets");?>/img/5a.jpg" rel="prettyPhoto" title="Description of image">
                                             <div>
-                                                <img src="img/5.jpg" alt="" />
+                                                <img src="<?php echo base_url("assets");?>/img/5.jpg" alt="" />
                                                 <i></i>
                                             </div>
                                         </a>
                                         <div class="gallery-tools">
-                                            <a href="confirmation_store.html"><i class="fa fa-shopping-cart"></i></a>
+                                            <a href="<?php echo base_url("stores/confirmation")?>"><i class="fa fa-shopping-cart"></i></a>
                                         </div>
                                     </li>
                                     <li>
-                                        <a href="img/6a.jpg" rel="prettyPhoto" title="Description of image">
+                                        <a href="<?php echo base_url("assets");?>/img/6a.jpg" rel="prettyPhoto" title="Description of image">
                                             <div>
-                                                <img src="img/6.jpg" alt="" />
+                                                <img src="<?php echo base_url("assets");?>/img/6.jpg" alt="" />
                                                 <i></i>
                                             </div>
                                         </a>
                                         <div class="gallery-tools">
-                                            <a href="confirmation_store.html"><i class="fa fa-shopping-cart"></i></a>
+                                            <a href="<?php echo base_url("stores/confirmation")?>"><i class="fa fa-shopping-cart"></i></a>
                                         </div>
                                     </li>
                                     <li>
-                                        <a href="img/7a.jpg" rel="prettyPhoto" title="Description of image">
+                                        <a href="<?php echo base_url("assets");?>/img/7a.jpg" rel="prettyPhoto" title="Description of image">
                                             <div>
-                                                <img src="img/7.jpg"alt="" />
+                                                <img src="<?php echo base_url("assets");?>/img/7.jpg"alt="" />
                                                 <i></i>
                                             </div>
                                         </a>
                                         <div class="gallery-tools">
-                                            <a href="confirmation_store.html"><i class="fa fa-shopping-cart"></i></a>
+                                            <a href="<?php echo base_url("stores/confirmation")?>"><i class="fa fa-shopping-cart"></i></a>
                                         </div>
                                     </li>
                                     <li>
-                                        <a href="img/8a.jpg" rel="prettyPhoto" title="Description of image">
+                                        <a href="<?php echo base_url("assets");?>/img/8a.jpg" rel="prettyPhoto" title="Description of image">
                                             <div>
-                                                <img src="img/8.jpg" alt="" />
+                                                <img src="<?php echo base_url("assets");?>/img/8.jpg" alt="" />
                                                 <i></i>
                                             </div>
                                         </a>
                                         <div class="gallery-tools">
-                                            <a href="confirmation_store.html"><i class="fa fa-shopping-cart"></i></a>
+                                            <a href="<?php echo base_url("stores/confirmation")?>"><i class="fa fa-shopping-cart"></i></a>
                                         </div>
                                     </li>
                                     <li>
-                                        <a href="img/9a.jpg" rel="prettyPhoto" title="Description of image">
+                                        <a href="<?php echo base_url("assets");?>/img/9a.jpg" rel="prettyPhoto" title="Description of image">
                                             <div>
-                                                <img src="img/9.jpg" alt="" />
+                                                <img src="<?php echo base_url("assets");?>/img/9.jpg" alt="" />
                                                 <i></i>
                                             </div>
                                         </a>
                                         <div class="gallery-tools">
-                                            <a href="confirmation_store.html"><i class="fa fa-shopping-cart"></i></a>
+                                            <a href="<?php echo base_url("stores/confirmation")?>"><i class="fa fa-shopping-cart"></i></a>
                                         </div>
                                     </li>
                                     <li>
-                                        <a href="img/10a.jpg" rel="prettyPhoto" title="Description of image">
+                                        <a href="<?php echo base_url("assets");?>/img/10a.jpg" rel="prettyPhoto" title="Description of image">
                                             <div>
-                                                <img src="img/10.jpg" alt="" />
+                                                <img src="<?php echo base_url("assets");?>/img/10.jpg" alt="" />
                                                 <i></i>
                                             </div>
                                         </a>
                                         <div class="gallery-tools">
-                                            <a href="confirmation_store.html"><i class="fa fa-shopping-cart"></i></a>
+                                            <a href="<?php echo base_url("stores/confirmation")?>"><i class="fa fa-shopping-cart"></i></a>
                                         </div>
                                     </li>
                                 </ul>
