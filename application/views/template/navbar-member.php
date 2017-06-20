@@ -226,8 +226,8 @@
                     </li>
 
 
-                    <li <?php echo ($active =="store")? "class='active'" : "" ?>>
-                        <a href="<?php echo base_url("store/store");?>">
+                    <li <?php echo ($active =="stores")? "class='active'" : "" ?>>
+                        <a href="<?php echo base_url("stores/store");?>">
                             <i class="fa fa-shopping-cart"></i>
                             <span>Store</span>
                         </a>
