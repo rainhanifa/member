@@ -1,20 +1,20 @@
 <?php
 	defined('BASEPATH') OR exit('No direct script access allowed');
 
-	class Knowledgebase extends CI_Controller {
+	class Transactions extends CI_Controller {
 		public function index(){
-			redirect("knowledgebase/knowledgebase");
+			redirect("transaction/transaction");
 		}
-		public function knowledgebased(){
+		public function transaction(){
 			$this->load->view('template/header-member.php');
 			$this->load->view('template/navbar-member.php');
-			$this->load->view('knowledgebase/knowledgebase.php');
+			$this->load->view('transaction/transaction.php');
 			$this->load->view('template/footer-member.php');
 		}
-		public function single_knowledgebase(){
+		public function invoice(){
 			$this->load->view('template/header-member.php');
 			$this->load->view('template/navbar-member.php');
-			$this->load->view('knowledgebase/single-knowledgebase.php');
+			$this->load->view('transaction/invoice.php');
 			$this->load->view('template/footer-member.php');
 		}
 	}

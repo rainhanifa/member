@@ -1,4 +1,4 @@
-
+<?php $active= $this->router->fetch_class(); ?>
         <!-- BEGIN Navbar -->
         <div id="navbar" class="navbar">
             <button type="button" class="navbar-toggle navbar-btn collapsed" data-toggle="collapse" data-target="#sidebar">
@@ -205,7 +205,7 @@
                 <!-- BEGIN Navlist -->
                 <ul class="nav nav-list">
                     <li <?php echo ($active =="dashboard")? "class='active'" : "" ?>>
-                        <a href="<?php echo base_url("index");?>">
+                        <a href="<?php echo base_url("dashboard");?>">
                             <i class="fa fa-dashboard"></i>
                             <span>Dashboard</span>
                         </a>
@@ -218,8 +218,8 @@
                         </a>
                     </li>
 
-                    <li <?php echo ($active =="transaction")? "class='active'" : "" ?>>
-                        <a href="<?php echo base_url("transaction");?>">
+                    <li <?php echo ($active =="transactions")? "class='active'" : "" ?>>
+                        <a href="<?php echo base_url("transactions/transaction");?>">
                             <i class="fa fa-list-alt"></i>
                             <span>Transaction</span>
                         </a>
@@ -227,28 +227,28 @@
 
 
                     <li <?php echo ($active =="store")? "class='active'" : "" ?>>
-                        <a href="<?php echo base_url("store");?>">
+                        <a href="<?php echo base_url("store/store");?>">
                             <i class="fa fa-shopping-cart"></i>
                             <span>Store</span>
                         </a>
                     </li>
 
-                    <li <?php echo ($active =="knowledgebase")? "class='active'" : "" ?>>
-                        <a href="<?php echo base_url("knowledgebase");?>">
+                    <li <?php echo ($active =="knowledgebases")? "class='active'" : "" ?>>
+                        <a href="<?php echo base_url("knowledgebases/knowledgebase");?>">
                             <i class="fa fa-lightbulb-o"></i>
                             <span>Knowledgebase</span>
                         </a>
                     </li>
 
-                    <li <?php echo ($active =="announcement")? "class='active'" : "" ?>>
-                        <a href="<?php echo base_url("announcement");?>">
+                    <li <?php echo ($active =="announcements")? "class='active'" : "" ?>>
+                        <a href="<?php echo base_url("announcements/announcement");?>">
                             <i class="fa fa-bullhorn"></i>
                             <span>Announcement</span>
                         </a>
                     </li>
 
-                     <li>
-                        <a href="support.html">
+                     <li<?php echo ($active =="supports")? "class='active'" : "" ?>>
+                        <a href="<?php echo base_url("supports/support");?>">
                             <i class="fa fa-globe"></i>
                             <span>Support</span>
                         </a>
