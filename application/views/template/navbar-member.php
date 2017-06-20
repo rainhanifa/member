@@ -137,14 +137,14 @@
                         </li>
 
                         <li>
-                            <a href="account-setting.html">
+                            <a href="<?php echo base_url("user/acc_setting");?>">
                                 <i class="fa fa-cog"></i>
                                 Account Settings
                             </a>
                         </li>
 
                         <li>
-                            <a href="edit-profile.html">
+                            <a href="<?php echo base_url("user/edit");?>">
                                 <i class="fa fa-user"></i>
                                 Edit Profile
                             </a>
@@ -247,7 +247,7 @@
                         </a>
                     </li>
 
-                     <li<?php echo ($active =="supports")? "class='active'" : "" ?>>
+                    <li <?php echo ($active =="supports")? "class='active'" : "" ?>>
                         <a href="<?php echo base_url("supports/support");?>">
                             <i class="fa fa-globe"></i>
                             <span>Support</span>
