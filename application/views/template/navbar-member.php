@@ -211,8 +211,8 @@
                         </a>
                     </li>
 
-                    <li>
-                        <a href="mysite.html">
+                    <li <?php echo ($active =="mysite")? "class='active'" : "" ?>>
+                        <a href="<?php echo base_url("mysite");?>">
                             <i class="fa fa-desktop"></i>
                             <span>My Site</span>
                         </a>
