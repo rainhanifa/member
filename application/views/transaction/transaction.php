@@ -67,7 +67,7 @@
                                     <td>21/08/2015</td>
                                     <td> Rp. 280.983,00</td>
                                     <td><span class="label label-large label-lime">Paid</span></td>
-                                    <td><a class="btn btn-info"><i class="fa fa-tasks"></i> View Invoice</a></td>
+                                    <td><a href="<?php echo base_url("transactions/invoice");?>" class="btn btn-info"><i class="fa fa-tasks"></i> View Invoice</a></td>
                                 </tr>
                                 <tr>                               
                                     <td><a href="">495868</a></td>
@@ -75,7 +75,7 @@
                                     <td>23/03/2017</td>
                                     <td>Rp. 159.945,00</td>
                                     <td><span class="label label-large label-gray">Canceled</span></td>
-                                    <td><a class="btn btn-info"><i class="fa fa-tasks"></i> View Invoice</a></td>
+                                    <td><a href="<?php echo base_url("transactions/invoice");?>" class="btn btn-info"><i class="fa fa-tasks"></i> View Invoice</a></td>
                                 </tr>
 
                                 <tr>                               
@@ -84,7 +84,7 @@
                                     <td>17/04/2017</td>
                                     <td> Rp. 200.565,00</td>
                                     <td><span class="label label-large label-warning">Unpaid</span></td>
-                                    <td><a href="#" class="btn btn-info"><i class="fa fa-tasks"></i> View Invoice</a>
+                                    <td><a href="<?php echo base_url("transactions/invoice");?>" class="btn btn-info"><i class="fa fa-tasks"></i> View Invoice</a>
                                      <a href="#" class="btn btn-lime" data-toggle="modal" data-target="#confirm"><i class="fa fa-check"></i> Confirm Payment</a></td>
                                 </tr>
 
@@ -94,7 +94,7 @@
                                     <td>12/05/2017</td>
                                     <td> Rp. 235.348,00</td>
                                     <td><span class="label label-large label-danger">Unpaid</span></td>
-                                    <td><a class="btn btn-info" data-toggle="modal" data-target="#confirm"><i class="fa fa-tasks"></i> View Invoice</a>
+                                    <td><a href="<?php echo base_url("transactions/invoice");?>" class="btn btn-info"><i class="fa fa-tasks"></i> View Invoice</a>
                                      <a href="#" class="btn btn-lime" data-toggle="modal" data-target="#confirm"><i class="fa fa-check"></i> Confirm Payment</a></td>
                                 </tr>
                               
