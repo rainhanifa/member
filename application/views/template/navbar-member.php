@@ -137,14 +137,14 @@
                         </li>
 
                         <li>
-                            <a href="account-setting.html">
+                            <a href="<?php echo base_url("user/acc_setting")?>">
                                 <i class="fa fa-cog"></i>
                                 Account Settings
                             </a>
                         </li>
 
                         <li>
-                            <a href="edit-profile.html">
+                            <a href="<?php echo base_url("user/edit")?>">
                                 <i class="fa fa-user"></i>
                                 Edit Profile
                             </a>
@@ -205,14 +205,14 @@
                 <!-- BEGIN Navlist -->
                 <ul class="nav nav-list">
                     <li class="active">
-                        <a href="index.html">
+                        <a href="<?php echo base_url("dashboard")?>">
                             <i class="fa fa-dashboard"></i>
                             <span>Dashboard</span>
                         </a>
                     </li>
 
                     <li>
-                        <a href="mysite.html">
+                        <a href="<?php echo base_url("mysite")?>">
                             <i class="fa fa-desktop"></i>
                             <span>My Site</span>
                         </a>
@@ -227,7 +227,7 @@
 
 
                     <li>
-                        <a href="store.html">
+                        <a href="<?php echo base_url("stores")?>">
                             <i class="fa fa-shopping-cart"></i>
                             <span>Store</span>
                         </a>
@@ -248,7 +248,7 @@
                     </li>
 
                      <li>
-                        <a href="support.html">
+                        <a href="<?php echo base_url("supports")?>">
                             <i class="fa fa-globe"></i>
                             <span>Support</span>
                         </a>
