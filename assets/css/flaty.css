@@ -1812,6 +1812,12 @@ a.btn {
 .btn.btn-gray {
     color: #fff;
 }
+.btn.btn-save {
+	margin-left:185px;
+}
+.btn.btn-save2 {
+	margin-left:189px;
+}
 .btn.btn-inverse > .caret,
 .btn.btn-pink > .caret,
 .btn.btn-yellow > .caret,
@@ -6036,6 +6042,8 @@ Fixes for BS 3.2
     margin-left: 0;
     position: static;
 }
+
+
 
 
 
