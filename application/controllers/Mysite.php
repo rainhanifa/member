@@ -4,10 +4,11 @@
 
 		public function index()
 		{
-			$this->load->view('template/header.php');
+			$this->load->view('template/header-member.php');
 			$this->load->view('template/navbar-member.php');
 			$this->load->view('mysite/mysite.php');
-			$this->load->view('template/footer.php');
+			$this->load->view('template/footer-member.php');
 		}
 	}
 ?>	
+

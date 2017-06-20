@@ -212,7 +212,7 @@
                     </li>
 
                     <li>
-                        <a href="<?php echo base_url("mysite")?>">
+                        <a href="mysite.html">
                             <i class="fa fa-desktop"></i>
                             <span>My Site</span>
                         </a>
