@@ -5,7 +5,7 @@
 		public function index(){
 			redirect("announcement/announcement");
 		}
-		public function announcement(){
+		public function announcements(){
 			$this->load->view('template/header-member.php');
 			$this->load->view('template/navbar-member.php');
 			$this->load->view('announcement/announcement.php');

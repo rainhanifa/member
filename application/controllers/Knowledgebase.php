@@ -5,7 +5,7 @@
 		public function index(){
 			redirect("knowledgebase/knowledgebase");
 		}
-		public function knowledgebase(){
+		public function knowledgebased(){
 			$this->load->view('template/header-member.php');
 			$this->load->view('template/navbar-member.php');
 			$this->load->view('knowledgebase/knowledgebase.php');

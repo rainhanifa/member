@@ -5,7 +5,7 @@
 		public function index(){
 			redirect("transaction/transaction");
 		}
-		public function transaction(){
+		public function transactions(){
 			$this->load->view('template/header-member.php');
 			$this->load->view('template/navbar-member.php');
 			$this->load->view('transaction/transaction.php');
