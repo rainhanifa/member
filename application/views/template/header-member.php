@@ -20,6 +20,8 @@
         
         <!--page specific css styles-->
         <link rel="stylesheet" href="<?php echo base_url('assets')?>/assets/data-tables/bootstrap3/dataTables.bootstrap.css" />
+        <link rel="stylesheet" href="<?php echo base_url('assets')?>/assets/prettyPhoto/css/prettyPhoto.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets')?>/assets/chosen-bootstrap/chosen.min.css" />    
 
         <!--flaty css styles-->
         <link rel="stylesheet" href="<?php echo base_url('assets')?>/css/flaty.css">
