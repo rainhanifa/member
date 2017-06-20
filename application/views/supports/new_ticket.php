@@ -13,11 +13,11 @@
                     <ul class="breadcrumb">
                        <li>
                             <i class="fa fa-home"></i>
-                            <a href="index.html">Home</a>
+                            <a href="<?php echo base_url("dashboard")?>">Home</a>
                             <span class="divider"><i class="fa fa-angle-right"></i></span>
                         </li>
                         <li>
-                            <a href="support.html">My Ticket</a>
+                            <a href="<?php echo base_url("supports/support")?>">My Ticket</a>
                             <span class="divider"><i class="fa fa-angle-right"></i></span>
                         </li>
                         <li class="active"> New Ticket </li>
@@ -32,13 +32,13 @@
                             <div class="box-content">
                                 <div class="row">
                                     <br/>
-                                    <a class="col-md-6" href="open_ticket.html">
+                                    <a class="col-md-6" href="<?php echo base_url("supports/open_ticket")?>">
                                         <div class="well well-lg">
                                             <h2><span>Technical Support</span></h2>
                                             <p><span>Questions about technical problem on Smart Media services</span></p>
                                         </div>
                                     </a>
-                                    <a class="col-md-6" href="open_ticket.html">
+                                    <a class="col-md-6" href="<?php echo base_url("supports/open_ticket")?>">
                                         <div class="well well-lg">
                                             <h2><span>Sales Department</span></h2>
                                             <p><span>You can ask about Smart Media product here</span></p>
@@ -46,7 +46,7 @@
                                     </a>
                                 </div> 
                                 <div class="row">
-                                    <a class="col-md-6" href="open_ticket.html">
+                                    <a class="col-md-6" href="<?php echo base_url("supports/open_ticket")?>">
                                         <div class="well well-lg">
                                             <h2><span>Billing Support</span></h2>
                                             <p><span>Questions about billing, package upgrade, payment confirmation, dan cost services on Smart Media</span></p>
