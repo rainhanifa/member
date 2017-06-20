@@ -1,20 +1,17 @@
 <?php
 	defined('BASEPATH') OR exit('No direct script access allowed');
 
-	class Knowledgebases extends CI_Controller {
+	class Store extends CI_Controller {
 		public function index(){
-			redirect("knowledgebase/knowledgebase");
-		}
-		public function knowledgebase(){
 			$this->load->view('template/header-member.php');
 			$this->load->view('template/navbar-member.php');
-			$this->load->view('knowledgebase/knowledgebase.php');
+			$this->load->view('store/index.php');
 			$this->load->view('template/footer-member.php');
 		}
-		public function single_knowledgebase(){
+		public function confirmation(){
 			$this->load->view('template/header-member.php');
 			$this->load->view('template/navbar-member.php');
-			$this->load->view('knowledgebase/single-knowledgebase.php');
+			$this->load->view('store/confirmation.php');
 			$this->load->view('template/footer-member.php');
 		}
 	}

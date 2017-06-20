@@ -1,20 +1,17 @@
 <?php
 	defined('BASEPATH') OR exit('No direct script access allowed');
 
-	class Stores extends CI_Controller {
+	class Announcement extends CI_Controller {
 		public function index(){
-			redirect("stores/store");
-		}
-		public function store(){
 			$this->load->view('template/header-member.php');
 			$this->load->view('template/navbar-member.php');
-			$this->load->view('stores/store.php');
+			$this->load->view('announcement/index.php');
 			$this->load->view('template/footer-member.php');
 		}
-		public function confirmation(){
+		public function detail(){
 			$this->load->view('template/header-member.php');
 			$this->load->view('template/navbar-member.php');
-			$this->load->view('stores/confirmation.php');
+			$this->load->view('announcement/detail.php');
 			$this->load->view('template/footer-member.php');
 		}
 	}

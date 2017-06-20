@@ -211,44 +211,44 @@
                         </a>
                     </li>
 
-                    <li <?php echo ($active =="mysite")? "class='active'" : "" ?>>
-                        <a href="<?php echo base_url("mysite");?>">
+                    <li <?php echo ($active =="manage")? "class='active'" : "" ?>>
+                        <a href="<?php echo base_url("manage");?>">
                             <i class="fa fa-desktop"></i>
                             <span>My Site</span>
                         </a>
                     </li>
 
-                    <li <?php echo ($active =="transactions")? "class='active'" : "" ?>>
-                        <a href="<?php echo base_url("transactions/transaction");?>">
+                    <li <?php echo ($active =="transaction")? "class='active'" : "" ?>>
+                        <a href="<?php echo base_url("transaction");?>">
                             <i class="fa fa-list-alt"></i>
                             <span>Transaction</span>
                         </a>
                     </li>
 
 
-                    <li <?php echo ($active =="stores")? "class='active'" : "" ?>>
-                        <a href="<?php echo base_url("stores/store");?>">
+                    <li <?php echo ($active =="store")? "class='active'" : "" ?>>
+                        <a href="<?php echo base_url("store");?>">
                             <i class="fa fa-shopping-cart"></i>
                             <span>Store</span>
                         </a>
                     </li>
 
-                    <li <?php echo ($active =="knowledgebases")? "class='active'" : "" ?>>
-                        <a href="<?php echo base_url("knowledgebases/knowledgebase");?>">
+                    <li <?php echo ($active =="knowledgebase")? "class='active'" : "" ?>>
+                        <a href="<?php echo base_url("knowledgebase");?>">
                             <i class="fa fa-lightbulb-o"></i>
                             <span>Knowledgebase</span>
                         </a>
                     </li>
 
-                    <li <?php echo ($active =="announcements")? "class='active'" : "" ?>>
-                        <a href="<?php echo base_url("announcements/announcement");?>">
+                    <li <?php echo ($active =="announcement")? "class='active'" : "" ?>>
+                        <a href="<?php echo base_url("announcement");?>">
                             <i class="fa fa-bullhorn"></i>
                             <span>Announcement</span>
                         </a>
                     </li>
 
-                    <li <?php echo ($active =="supports")? "class='active'" : "" ?>>
-                        <a href="<?php echo base_url("supports/support");?>">
+                    <li <?php echo ($active =="support")? "class='active'" : "" ?>>
+                        <a href="<?php echo base_url("support");?>">
                             <i class="fa fa-globe"></i>
                             <span>Support</span>
                         </a>

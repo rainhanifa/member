@@ -35,7 +35,7 @@
                                                 <a href="single-announcement.html" class="title">Informasi Maintenance Member Area</a>
                                                 <p class="news-date">Published on 12 May 2017</p>
                                                 <p>Terima kasih atas kepercayaan anda akan layanan kami, Untuk semakin meningkatkan komunikasi yang berjalan pada member area, maka kami akan melakukan maintenance pada :  Hari / Tanggal : Sabtu, 6 Mei 2017 Pukul : 22.00 - 06.00 WIB Selama proses maintenance, untuk akses ke member area tidak akan dapat dilakukan. Namun untuk jalur komunikasi chat dan telepon maupun email tetap...</p>
-                                                <a href="<?php echo base_url("announcements/single_announcement");?>" class="btn btn-readmore btn-xs">Read More</a>
+                                                <a href="<?php echo base_url("announcement/detail");?>" class="btn btn-readmore btn-xs">Read More</a>
                                             </div>
                                         </li>
                                         <li>
@@ -43,7 +43,7 @@
                                                 <a href="single-announcement.html" class="title">Informasi Disable Fungsi PHP</a>
                                                 <p class="news-date">Published on 12 May 2017</p>
                                                 <p>Terima kasih atas kepercayaan anda akan layanan kami, Untuk semakin meningkatkan security pada layanan hosting anda, saat ini kami lakukan disable fungsi php berikut : eval ( dl Dimana fungsi php tersebut sering disalahgunakan oleh pihak yang tidak bertanggung jawab untuk melakukan aktivitas abuse. Upaya peningkatan security akan terus kami lakukan...</p>
-                                                <a href="<?php echo base_url("announcements/single_announcement");?>" class="btn btn-readmore btn-xs">Read More</a>
+                                                <a href="<?php echo base_url("announcement/detail");?>" class="btn btn-readmore btn-xs">Read More</a>
                                             </div>
                                         </li>
                                         <li>
@@ -51,7 +51,7 @@
                                                 <a href="single-announcement.html" class="title">Informasi Gangguan Network</a>
                                                 <p class="news-date">Published on 12 May 2017</p>
                                                 <p>Terima kasih atas kepercayaan anda akan layanan kami, Sebelumnya, Kami sampaikan permohonan maaf atas gangguan network pada  beberapa server kami, sehingga server tidak bisa melakukan koneksi ke luar datacenter. Saat ini proses perbaikan pada server tersebut masih berlangsung. Kami menyadari pentingnya akses ke website Anda dan berusaha untuk secepatnya menyelesaikan...</p>
-                                                <a href="<?php echo base_url("announcements/single_announcement");?>" class="btn btn-readmore btn-xs">Read More</a>
+                                                <a href="<?php echo base_url("announcement/detail");?>" class="btn btn-readmore btn-xs">Read More</a>
                                             </div>
                                         </li>
                                     </ul>

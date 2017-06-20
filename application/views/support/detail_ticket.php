@@ -17,7 +17,7 @@
                             <span class="divider"><i class="fa fa-angle-right"></i></span>
                         </li>
                         <li>
-                            <a href="<?php echo base_url("supports/support")?>">My Ticket</a>
+                            <a href="<?php echo base_url("support")?>">My Ticket</a>
                             <span class="divider"><i class="fa fa-angle-right"></i></span>
                         </li>
                         <li class="active">Detail Ticket</li>
