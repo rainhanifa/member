@@ -204,8 +204,8 @@
             <div id="sidebar" class="navbar-collapse collapse">
                 <!-- BEGIN Navlist -->
                 <ul class="nav nav-list">
-                    <li class="active">
-                        <a href="index.html">
+                    <li <?php echo ($active =="dashboard")? "class='active'" : "" ?>>
+                        <a href="<?php echo base_url("index");?>">
                             <i class="fa fa-dashboard"></i>
                             <span>Dashboard</span>
                         </a>
